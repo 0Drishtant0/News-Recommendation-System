@@ -1,0 +1,20 @@
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10000000;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+
+}
+
+.cursor-dot-outline {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

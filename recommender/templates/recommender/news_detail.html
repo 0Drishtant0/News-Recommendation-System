@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Reading Page</title>
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body>
+    <h1>{{ article.title }}</h1>
+    <p>Author: {{ article.author }}</p>
+    <p>Published At: {{ article.published_at }}</p>
+    <img src="{{ article.url_to_image }}" alt="Article Image">
+    <p>{{ article.description }}</p>
+    <p>{{ article.content }}</p>
+    <p>Category: {{ article.category }}</p>
+</body>
+</html>
